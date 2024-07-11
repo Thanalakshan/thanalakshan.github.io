@@ -1,0 +1,73 @@
+/* Reset margins and padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: rgb(255, 100, 128);
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav span {
+  margin-left: 20px;
+}
+
+nav a:hover {
+  background-color: rgb(255, 175, 175);
+  color: black;
+  transform: scale(1.05);
+}
+
+.portfolio-text {
+  font-size: 2rem;
+}
+
+.right-nav {
+  font-size: 2.5rem;
+  margin-right: 40px;
+}
+
+.dont-click-text {
+  font-size: 1.25rem;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between; /* Ensures equal spacing between items */
+  align-items: center; /* Centers items vertically */
+}
+
+.left-nav, .right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.right-nav {
+  margin-left: auto;
+}
+
+nav a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width 0.3s;
+}
+
+nav a:hover::after {
+  width: 100%;
+}

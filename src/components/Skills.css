@@ -1,0 +1,30 @@
+.skills-container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .skills-container h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  
+  .skills-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-container li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: rgb(255, 100, 128); /* Light grey background for list items */
+    border-radius: 8px; /* Rounded corners for list items */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .skills-container li:hover {
+    background-color: rgb(255, 175, 175); /* Slightly darker grey on hover */
+  }
+  

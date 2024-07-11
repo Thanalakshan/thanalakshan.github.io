@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(255, 175, 175); /* Set the desired background color for the entire page */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  /* About Me Section */
+  .about-me-container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-me-container h2 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .about-me-container p {
+    font-size: 2rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

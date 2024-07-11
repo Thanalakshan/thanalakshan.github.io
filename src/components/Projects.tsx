@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       <div className="project">
         <a href="https://github.com/Thanalakshan/SentimentAnalysis" target="_blank" rel="noopener noreferrer">
           <img src="/P4.jpeg" alt="Project 4" />
-        <h3>Sentiment Analysis (Tect)</h3>
+        <h3>Sentiment Analysis (Text)</h3>
         </a>
       </div>
     </section>

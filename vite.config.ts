@@ -2,5 +2,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/https://github.com/Thanalakshan/Portfolio/',
+  base: '/Portfolio/', // Replace with your GitHub repository name
 });

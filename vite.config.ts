@@ -2,5 +2,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/Portfolio/', // Replace with your GitHub repository name
+  server: {
+    port: 5173,
+  },
 });

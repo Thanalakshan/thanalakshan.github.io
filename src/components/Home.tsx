@@ -26,7 +26,7 @@ const Home: React.FC = () => {
         <div className="right-bottom">
           <nav>
             <ul className="contact">
-              <li><a href="https://github.com/Thanalakshan" target="_blank" rel="noopener noreferrer"><img src="/public/github.png" alt="GitHub" /></a></li>
+              <li><a href="https://github.com/Thanalakshan" target="_blank" rel="noopener noreferrer"><img src="/github.png" alt="GitHub" /></a></li>
               <li><a href="https://www.linkedin.com/in/thana" target="_blank" rel="noopener noreferrer"><img src="/linkedin.png" alt="LinkedIn" /></a></li>
               <li><a href="https://wa.me/+94769150449" target="_blank" rel="noopener noreferrer"><img src="/whatsapp.png" alt="WhatsApp" /></a></li>
               <li><a href="https://www.facebook.com/thanalakshan7" target="_blank" rel="noopener noreferrer"><img src="/facebook.png" alt="Facebook" /></a></li>

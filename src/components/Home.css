@@ -79,5 +79,8 @@
       font-size: 2rem;
       margin-bottom: 0px;
     }
+    .contact li img {
+      width: 40px;
+    }
   }
   

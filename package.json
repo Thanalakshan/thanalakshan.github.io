@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.0.0",
   "private": true,
-  "homepage": "http://thanalakshan.github.io/Portfolio",
+  "homepage": "http://thanalakshan.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

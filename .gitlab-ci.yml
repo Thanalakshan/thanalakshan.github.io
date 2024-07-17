@@ -9,7 +9,7 @@ pages:
     paths:
       - node_modules/
   script:
-    - npm install
+    - npm install --force
     - npm run build
     - cp -a dist/. public/
   artifacts:

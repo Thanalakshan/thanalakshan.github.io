@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "http://thanalakshan.github.io/Portfolio/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "test": "jest"
   },
   "dependencies": {

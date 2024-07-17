@@ -33,6 +33,13 @@ const Projects: React.FC = () => {
         <h3>Sentiment Analysis (Text)</h3>
         </a>
       </div>
+
+      <div className="project">
+        <a href="https://github.com/Thanalakshan/ChatBot_Gemini" target="_blank" rel="noopener noreferrer">
+          <img src="/P5.jpeg" alt="Project 4" />
+        <h3>ChatBot - Kimiko</h3>
+        </a>
+      </div>
     </section>
   );
 };

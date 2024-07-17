@@ -57,7 +57,7 @@
   }
   
   .contact li img {
-    width: 60px;
+    width: 40px;
   }
   
   @media (max-width: 768px) {
@@ -78,9 +78,6 @@
     .navigation {
       font-size: 2rem;
       margin-bottom: 0px;
-    }
-    .contact li img {
-      width: 40px;
     }
   }
   

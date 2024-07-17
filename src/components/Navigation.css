@@ -78,11 +78,11 @@ nav a:hover::after {
   }
 
   .right-nav {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
   }
 
   .dont-click-text {
-    font-size: 1.5rem;
+    font-size: 0.5rem;
   }
 
   nav span {

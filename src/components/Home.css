@@ -43,22 +43,20 @@
   text-decoration: none;
   padding: 15px 15px;
   transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
-  position: static;
 }
 
 .navigation {
   font-size: 3rem;
   list-style: none;
-  padding: 0;
   text-align: center;
   width: 100%;
   position: static;
-  margin-bottom: -40px; /* Adjust margin if necessary */
+  margin-bottom: -40px;
 }
 
 .navigation li {
   display: block;
-  margin-bottom: 40px; /* Adjust margin if necessary */
+  margin-bottom: 40px;
   width: 100%;
 }
 
@@ -73,7 +71,7 @@
   transform-origin: center;
   border: 5px solid rgb(255, 175, 175);
   border-radius: 15px;
-  box-sizing: border-box; /* Ensures padding and border are included in element’s width and height */
+  box-sizing: border-box;
 }
 
 .navigation li a:hover {
@@ -82,10 +80,9 @@
   transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
 
-
 .contact li {
   display: inline-block;
-  margin-left: 0;
+  margin-right: 20px;
 }
 
 .contact li img {

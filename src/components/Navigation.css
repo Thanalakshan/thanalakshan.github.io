@@ -5,7 +5,6 @@ body, html {
   width: 100%;
 }
 
-/* Navigation bar styles */
 nav {
   background-color: rgb(255, 100, 128);
   padding: 10px;
@@ -18,7 +17,8 @@ nav a {
   color: black;
   text-decoration: none;
   padding: 15px 15px;
-  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease, font-size 0.3s ease, border 0.3s ease;
 }
 
 nav span {
@@ -29,6 +29,16 @@ nav a:hover {
   background-color: rgb(255, 175, 175);
   color: black;
   transform: scale(1.05);
+  border-radius: 15px;
+}
+
+nav .left-nav a:hover, nav .right-nav a:hover {
+  background-color: rgb(255, 100, 128);
+  transform: scale(1.15);
+}
+
+nav .left-nav a::after, nav .right-nav a::after {
+  content: none;
 }
 
 .portfolio-text {
@@ -46,8 +56,7 @@ nav a:hover {
 
 .navigation-container {
   display: flex;
-  justify-content: space-between; /* Ensures equal spacing between items */
-  align-items: center; /* Centers items vertically */
+  justify-content: space-between;
 }
 
 .left-nav, .right-nav {

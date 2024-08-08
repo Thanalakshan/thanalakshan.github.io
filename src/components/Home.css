@@ -1,83 +1,127 @@
 .home-container {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    background-color: rgb(255, 175, 175);
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-    margin: 0;
-  }
-  
-  .first-half {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .second-half {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(255, 100, 128);
-  }
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: rgb(255, 175, 175);
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
 
-  .left-top, .left-bottom, .right-bottom, .right-top {
-    text-align: center;
-  }
-  
-  .profile-image {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .navigation {
-    font-size: 3rem;
-    list-style: none;
-    padding: 0;
-    text-align: center;
-  }
-  
-  .navigation li {
-    display: block;
-    margin-bottom: 40px;
-  }
-  
-  .contact li {
-    display: inline-block;
-    margin-right: 35px;
-    margin-left: 0;
-    
-  }
-  
-  .contact li img {
-    width: 40px;
-  }
-  
-  @media (max-width: 768px) {
-    .home-container h1 {
+.first-half {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-half {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 100, 128);
+}
+
+.left-top, .left-bottom, .right-bottom, .right-top {
+  text-align: center;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+}
+
+.contact {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 15px;
+  transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
+  position: static;
+}
+
+.navigation {
+  font-size: 3rem;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  position: static;
+  margin-bottom: -40px; /* Adjust margin if necessary */
+}
+
+.navigation li {
+  display: block;
+  margin-bottom: 40px; /* Adjust margin if necessary */
+  width: 100%;
+}
+
+.navigation li a {
+  display: block;
+  width: 100%; /* Ensure it takes full width of its parent */
+  padding: 15px;
+  background-color: rgb(255, 175, 175);
+  color: black;
+  text-decoration: none;
+  font-size: 3rem;
+  transform-origin: center;
+  border: 5px solid rgb(255, 175, 175);
+  border-radius: 15px;
+  box-sizing: border-box; /* Ensures padding and border are included in element’s width and height */
+}
+
+.navigation li a:hover {
+  background-color: rgb(255, 100, 128);
+  transform: scale(1.15);
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.contact li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 0;
+}
+
+.contact li img {
+  width: 40px;
+}
+
+.right-top {
+  margin-right: 40px;
+}
+
+.contact :hover {
+  transition: color 0.6s ease, background-color 0.6s ease, transform 0.6s ease;
+}
+
+.right-top a::after {
+  content: none;
+}
+
+@media (max-width: 768px) {
+  .home-container h1 {
       flex-direction: column;
       align-items: center;
       font-size: 2rem;
-    }
-    
-    .first-half, .second-half {
-      width: 100%;
-    }
-  
-    .second-half {
-      margin-top: 20px;
-    }
-
-    .navigation {
-      font-size: 2rem;
-      margin-bottom: 0px;
-    }
   }
   
+  .first-half, .second-half {
+      width: 100%;
+  }
+
+  .second-half {
+      margin-top: 20px;
+  }
+
+  .navigation {
+      font-size: 2rem;
+      text-align: center;
+  }
+}

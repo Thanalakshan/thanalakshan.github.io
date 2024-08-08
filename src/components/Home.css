@@ -85,16 +85,11 @@
 
 .contact li {
   display: inline-block;
-  margin-right: 25px;
   margin-left: 0;
 }
 
 .contact li img {
   width: 40px;
-}
-
-.right-top {
-  margin-right: 40px;
 }
 
 .contact :hover {

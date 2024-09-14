@@ -14,29 +14,36 @@ const Projects: React.FC = () => {
       </div>
 
       <div className="project">
+        <a href="https://github.com/Thanalakshan/Document_Analyzer" target="_blank" rel="noopener noreferrer">
+          <img src="/P6.jpeg" alt="Project 2" />
+        <h3>Chat with Doc - LLAMA 3.1</h3>
+        </a>
+      </div>
+
+      <div className="project">
         <a href="https://github.com/Thanalakshan/Bangalore" target="_blank" rel="noopener noreferrer">
-          <img src="/P2.jpeg" alt="Project 2" />
+          <img src="/P2.jpeg" alt="Project 3" />
         <h3>Bengaluru Home Price Prediction</h3>
         </a>
       </div>
 
       <div className="project">
         <a href="https://github.com/Thanalakshan/payroll-frontend" target="_blank" rel="noopener noreferrer">
-          <img src="/P3.png" alt="Project 3" />
+          <img src="/P3.png" alt="Project 4" />
         <h3>Finance, Payroll, Risk Management Subsystem</h3>
         </a>
       </div>
 
       <div className="project">
         <a href="https://github.com/Thanalakshan/SentimentAnalysis" target="_blank" rel="noopener noreferrer">
-          <img src="/P4.jpeg" alt="Project 4" />
+          <img src="/P4.jpeg" alt="Project 5" />
         <h3>Sentiment Analysis (Text)</h3>
         </a>
       </div>
 
       <div className="project">
         <a href="https://github.com/Thanalakshan/ChatBot_Gemini" target="_blank" rel="noopener noreferrer">
-          <img src="/P5.jpeg" alt="Project 4" />
+          <img src="/P5.jpeg" alt="Project 6" />
         <h3>ChatBot - Kimiko</h3>
         </a>
       </div>
